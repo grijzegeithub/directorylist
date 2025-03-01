@@ -1,9 +1,10 @@
-# directorylist
-list directory and subdirectory files
+# DIRECTORY AND FILENAME PRINTING NO CLUTTER
+Pre-Req : Print to PDF file enabled
 
-prerequisites : Print to PDF file enabled
+dirlist.bat should be placed in Windows\system32
+Add .reg to the registry > Add print directory context menu on all folders 
 
-Put dirlist.bat in Windows\system32 folder
-Add .reg file to registry to enable right click in explorer to list all files in both directory and all subdirectories
+# Easier to avoid filedetails in the list and merely print dir and file names
+That's why tree is used instead of dir in the .bat batch file
 
-tree batch command is used instead of dir to list them folders and files.
+### Grijze Geit Hub
