@@ -1,11 +1,12 @@
 Windows Registry Editor Version 5.00
 
-[\HKEY_CLASSES_ROOT\Directory\Shell]
+[Computer\HKEY_CLASSES_ROOT\Directory\Shell]
 @="none"
 
-[\HKEY_CLASSES_ROOT\Directory\Shell\Directory List]
+[Computer\HKEY_CLASSES_ROOT\Directory\Shell\Directory List]
 @="Directory List Content"
 
-[\HKEY_CLASSES_ROOT\Directory\shell\Directory List\command]
+[Computer\HKEY_CLASSES_ROOT\Directory\shell\Directory List\command]
 
 @="dirlist.bat \"%1\""
+
